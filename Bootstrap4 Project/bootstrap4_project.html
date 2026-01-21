@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Rasha's Royal Cinema</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    
+    <style>
+      /* Custom Royal Theme for Rasha */
+      body {
+        background-color: #f3e5f5; /* Very light purple */
+        font-family: 'Georgia', serif;
+      }
+      .navbar {
+        background-color: #4b0082 !important; /* Indigo */
+        box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+      }
+      .navbar-brand, .nav-link {
+        color: #ffd700 !important; /* Gold text */
+      }
+      .jumbotron {
+        background-color: #fff;
+        border-bottom: 5px solid #ffd700;
+        color: #4b0082;
+      }
+      .card {
+        border: 1px solid #ffd700; /* Gold border */
+        box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      }
+      .card-title {
+        color: #4b0082;
+        font-weight: bold;
+      }
+      /* Scroll offset */
+      section {
+        padding-top: 80px;
+        margin-top: -20px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg fixed-top">
+      <a class="navbar-brand" href="#">Rasha AlNunu</a>
+      <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navRasha">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navRasha">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#showtimes">Showtimes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#deals">Deals</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="jumbotron text-center mt-5" id="about">
+      <h1 class="display-4">The Royal Experience</h1>
+      <p class="lead">Luxury viewing with Rasha AlNunu.</p>
+      <hr class="my-4">
+      <p>Scroll down to reserve your seat.</p>
+    </div>
+
+    <div class="container" id="showtimes">
+      <h3 class="text-center mb-4" style="color: #4b0082;">Now Showing</h3>
+      
+      <div class="card-deck">
+        
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BMTcwMjcxYTQtYjJlOS00YTE1LWIyZGYtOGRlOTBlMWZmYTliXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Kong">
+          <div class="card-body">
+            <h5 class="card-title">Kong: Skull Island</h5>
+            <p class="card-text">A diverse team of explorers is brought together to venture deep into an uncharted island in the Pacific—as beautiful as it is treacherous.</p>
+            
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://m.media-amazon.com/images/M/MV5BNzBkNjdjZTctNjdhOS00NmIyLTlkNjQtY2EwNGMwYmZjNTIxXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Ghost in the Shell">
+          <div class="card-body">
+            <h5 class="card-title">Ghost in the Shell</h5>
+            <p class="card-text">In the near future, Major is the first of her kind: A human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier.</p>
+            
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="https://lumiere-a.akamaihd.net/v1/images/p_beautyandthebeast_19752_32e65c36.jpeg" class="card-img-top" alt="Beauty and the Beast">
+          <div class="card-body">
+            <h5 class="card-title">Beauty and the Beast</h5>
+            <p class="card-text">The fantastic journey of Belle, a bright, beautiful and independent young woman who is taken prisoner by a beast in his castle.</p>
+            
+            <span class="badge badge-pill badge-info">12:00 p.m.</span>
+            <span class="badge badge-pill badge-info">1:30 p.m.</span>
+            <span class="badge badge-pill badge-info">3:00 p.m.</span>
+            <span class="badge badge-pill badge-info">5:30 p.m.</span>
+            <span class="badge badge-pill badge-info">7:00 p.m.</span>
+            <span class="badge badge-pill badge-info">9:30 p.m.</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div id="deals" class="container my-5 text-center">
+        <h2 style="color: #4b0082;">Golden Deals</h2>
+        <button class="btn btn-outline-warning btn-lg">Get Rewards</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
